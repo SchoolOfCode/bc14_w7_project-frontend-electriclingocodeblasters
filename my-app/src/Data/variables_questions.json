@@ -1,0 +1,41 @@
+{
+  "variablesQuizData": [
+    {
+      "id": 1,
+      "question": "Which keyword is used to declare a variable in JavaScript?",
+      "options": ["let", "var", "const", "create"],
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "question": "What is the correct way to declare and assign a value to a constant variable in JavaScript?",
+      "options": ["const x = 5;", "let x = 5;", "var x == 5;", "const x == 5;"],
+      "answer": "A"
+    },
+    {
+      "id": 3,
+      "question": "Consider the following code. What will be the value of `result` after execution?",
+      "codeSnippet": "let x = 10; { let x = 5; var y = 3; } let result = x + y;",
+      "options": ["13", "8", "15", "NaN"],
+      "answer": "A"
+    },
+    {
+      "id": 4,
+      "question": "What is the main difference between using 'let' and 'var' when declaring variables in JavaScript?",
+      "options": [
+        "let is used for global variables, while var is used for local variables",
+        "let is used for local variables, while var is used for global variables",
+        "let is block-scoped, while var is function-scoped",
+        "let is function-scoped, while var is block-scoped"
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "question": "What will be the output of the following code snippet?",
+      "codeSnippet": "function example() { let x = 2; if (true) { let x = 4; console.log(x); } console.log(x); } example();",
+      "options": ["2, 4", "4, 2", "4, 4", "2, 2"],
+      "answer": "B"
+    }
+  ]
+}

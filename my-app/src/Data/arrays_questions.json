@@ -1,0 +1,45 @@
+{
+  "arraysQuizData": [
+    {
+      "id": 1,
+      "question": "How do you declare an empty array in JavaScript?",
+      "options": [
+        "let arr = [];",
+        "let arr = {};",
+        "let arr;",
+        "let arr = new Array();"
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "question": "How do you access the third element of an array named 'myArray'?",
+      "options": ["myArray[3]", "myArray(2)", "myArray[2]", "myArray.2"],
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "question": "Which method adds an element to the end of an array?",
+      "options": ["push()", "pop()", "unshift()", "shift()"],
+      "answer": "A"
+    },
+    {
+      "id": 4,
+      "question": "Which method removes the last element of an array and returns it?",
+      "options": ["push()", "pop()", "unshift()", "shift()"],
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "Consider the following code. What will be the output?",
+      "codeSnippet": "const arr = [1, 2, 3, 4]; arr.splice(1, 2, 'a', 'b'); console.log(arr);",
+      "options": [
+        "[1, 2, 3, 4]",
+        "[1, 'a', 'b', 4]",
+        "[1, 2, 'a', 'b']",
+        "['a', 'b', 3, 4]"
+      ],
+      "answer": "B"
+    }
+  ]
+}

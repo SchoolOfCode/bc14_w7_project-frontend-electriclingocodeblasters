@@ -1,0 +1,52 @@
+
+.App {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+ 
+  
+  
+  button{
+    background-color: #6CAE75;
+    color: white;
+    border: none;
+    margin: 5px;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  /* Add any additional styles for the NavBar component here */
+  
+  /* HomePage box for topics */
+  .SectionContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .SectionContainer img {
+    max-width: 200px;
+  }
+  
+  .SectionContainer h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: hotpink ;
+  }
+  
+  .SectionContainer p {
+    font-size: 16px;
+    margin-top: 1rem;
+    color: blue ;
+  }
+  
+  /* Add any additional styles for the HomePage component here */
+  
+  
